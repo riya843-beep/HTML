@@ -3,146 +3,255 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact-BiteBox</title>
+    <title>Contact - BiteBox</title>
+    <link rel="stylesheet" href="css/style.css">
+
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family
+    =Montserrat:wght@400;600;700;800&family=Pacifico&family=Poppins:wght@300;
+    400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1> Contact Us </h1>
-  
-<p>
+ <header>
+   <img src="assests/images/black BiteBox.png" alt="BiteBox"
+    width="150">
 
-<a href="index.html">Home</a>
+<!--Navigation Menu-->
+<nav>
+
+<a href="index.html" class="active">Home</a>
 |
 <a href="menu.html">Menu</a>
 |
 <a href="about.html">About</a>
 |
 <a href="contact.html">Contact</a>
+|
+<a href="cart.html"> <img src="assests/icons/orange.avif" alt="cart" width="20px"> </a>
 
-</p>
+</nav>
+</header>
+<section id="contact-hero">
+    <div class="hero-content">
+        <h2>Contact <span>US</span></h2>
+       <h3> We'd Love to Hear From You</h3>
+        <hr>
+        <p> Have a question, feedback, or special request?<br>
+            Our team at BiteBox is always ready to assist you.
+        </p>
+    </div>
+</section>
 
-<h2> Visit Our Website </h2>
-<p>
- 
-<a href="https://www.google.com">
- 
-Visit Google
- 
-</a>
- 
-</p>
+<!-- Contact Information Section -->
+<section id="contact-info">
+    <div class="section-title">
+        <h4>Get In Touch</h4>
+        <h2>We Are Here for You</h2>
+    </div>
 
- <h2> Visit Our Website </h2>
-    <p>
+    <div class="contact-container">
+        <!-- Address Card -->
+        <article>
+            <img src="assests/images/location.jpg" width="50px" height="50px">
+            <h3>Address</h3>
+            <p>
+                BiteBox Restaurant<br>
+                123 Food Street,<br>
+                Mumbai, Maharashtra<br>
+                400001, India
+            </p>
+        </article>
+      <!-- Phone Card -->
+        <article>
+           <img src="assests/images/calling.png"  width="50px" height="50px">                        <h3>Phone</h3>
+            <p> +91 98765 43210<br>
+                +91 91234 56789
+            </p>
+        </article>
 
-        <a href="https://www.google.com">
+        <!-- Email Card -->
+        <article>
+            <img src="assests/images/email.jpg" alt="Email Icon" width="50px" height="50px">
+            <h3>Email</h3>
+            <p> support@bitebox.com<br>
+                info@bitebox.com
+            </p>
+        </article>
 
-            Visit Google
+        <!-- Social Media Card -->
+        <article>
+                <img src="assests/images/support.png" width="50px" height="50px">
+                <h3>Follow Us</h3>
+                <a href="#"> <img src="assests/icons/facebook-app-symbol.png" width="20px" height="20px"></a>
+                <a href="#"> <img src="assests/icons/social.png" width="20px" height="20px"> </a>
+                <a href="#"> <img src="assests/icons/twitter.png" width="20px" height="20px"> </a>
+                <a href="#"> <img src="assests/icons/youtube.png" width="20px" height="20px"></a>
+            </article>
+    </div>
+</section>
 
+<!--================ Contact Details Section ================-->
+<section id="contact-details">
+
+    <!-- Left Column -->
+    <div class="left-column">
+        <!-- Business Hours -->
+        <div class="business-card">
+            <h2>Business Hours</h2>
+            <hr>
+            <div class="business-content">
+                <img src="assests/icons/wall-clock.png" alt="Clock">
+                <table>
+                    <tr> <td>Monday – Friday</td>
+                         <td>11:00 AM – 11:00 PM</td>
+                    </tr>
+
+                    <tr> <td>Saturday</td>
+                        <td>10:00 AM – 12:00 AM</td>
+                    </tr>
+
+                    <tr> <td>Sunday</td>
+                        <td>10:00 AM – 10:00 PM</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+  <!-- Event Card -->
+        <div class="event-card">
+            <img src="assests/icons/wall calender.png" alt="Calendar">
+            <div>
+                <h3>Planning a special event?</h3>
+                <p>
+                    We also offer catering services for parties,
+                    events and corporate meetings.
+                </p>
+                <a href="#">Contact Us</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Right Column -->
+    <div class="right-column">
+        <h2>Send Us a Message</h2>
+        <hr>
+        <form>
+            <div class="form-row">
+                <input type="text" placeholder="Your Name">
+                <input type="email" placeholder="Your Email">
+            </div>
+
+            <div class="form-row">
+                <input type="tel" placeholder="Phone Number">
+                <input type="text" placeholder="Subject">
+            </div>
+
+ <textarea placeholder="Your Message"></textarea>
+            <button>Send Message ✈</button>
+        </form>
+    </div>
+</section>
+
+<section id="google-map">
+    <div class="section-title">
+        <h4>Find Us</h4>
+        <h2>Visit Our Restaurant</h2>
+        <p> Locate BiteBox on Google Maps and visit us for a delightful 
+            dining experience.
+        </p>
+    </div>
+
+    <iframe
+        src="https://www.google.com/maps/embed?pb=YOUR_GOOGLE_MAP_EMBED_LINK"
+        width="100%" height="450" loading="lazy">
+    </iframe>
+</section>
+
+<footer>
+
+    <!-- Footer Logo Section -->
+     <div class="footer-container">
+    <section>
+        <img src="assests/images/black BiteBox.png" alt="BiteBox Logo" width="180">
+        <p> Delicious food delivered to your doorstep.
+            Fresh, fast and tasty!
+        </p>
+
+        <a href="#">
+            <img src="assests/icons/facebook-app-symbol.png" alt="Facebook" width="35" height="35">
         </a>
 
-    </p>
+        <a href="#">
+            <img src="assests/icons/social.png" alt="Instagram" width="35" height="35">
+        </a>
+
+        <a href="#">
+            <img src="assests/icons/twitter.png" alt="Twitter" width="35" height="35">
+        </a>
+
+
+        <a href="#">
+            <img src="assests/icons/youtube.png" alt="YouTube" width="35" height="35">
+        </a>
+    </section>
 
     <hr>
 
-    <!--Customer Registeration form -->
-    <h2>Customer Registration & Order Form</h2>
+    <!-- Quick Links -->
+    <section>
+        <h3>Quick Links</h3>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="cart.html">Cart</a></li>
+        </u> 
+    </section>
 
     <hr>
 
+    <!-- Customer Service -->
+    <section>
+        <h3>Customer Service</h3>
+        <ul>
+            <li>Track Order</li>
+            <li>FAQs</li>
+            <li>Shipping Policy</li>
+            <li>Return Policy</li>
+            <li>Terms & Conditions</li>
+        </ul>
 
-    <form>
-        <h3>Customer Information</h3>
-        <label for="fullname">Full Name</label>
-        <br>
-        <input type="text" id="fullname" name="fullname">
-        <br><br>
- <label for="email">Email Address</label>
-        <br>
-        <input type="email" id="email" name="email">
-        <br><br>
+    </section>
 
-        <label for="password">Password</label>
-        <br>
-        <input type="password" id="password" name="password">
-        <br><br>
+    <hr>
 
-        <label for="phone">Phone Number</label>
-        <br>
-        <input type="tel" id="phone" name="phone">
-        <br><br>
+    <!-- Contact Information -->
+    <section>
+        <h3>Contact Us</h3>
+        <p>📞 +91 98765 43210</p>
+        <p>✉ support@bitebox.com</p>
+        <p>📍 123 Food Street, Mumbai, Maharashtra 400001 </p>
+    </section>
 
-        <h3>Order Information</h3>
-        <label for="quantity">Quantity</label>
-        <br>
-        <input type="number" id="quantity" name="quantity">
-        <br><br>
+    <hr>
 
-        <label for="deliveryDate">
-            Preferred Delivery Date
-        </label>
-        <br>
-        <input type="date" id="deliveryDate" name="deliveryDate">
-        <br><br>
+    <!-- Payment Methods -->
+    <section>
+        <h3>Payment Methods</h3>
+        <img src="assests/icons/visa.png" alt="Visa" width="60">
+        <img src="assests/icons/money.png" alt="MasterCard" width="60">
+        <img src="assests/icons/google-pay.png" alt="UPI" width="60">
+        <img src="assests/icons/paytm.png"  alt="Paytm" width="60">
+    </section>
+    </div>
 
-        <label for="food"> Select Food Item </label>
-        <br>
-<select id="food" name="food">
-            <option>
-                Veg Pizza
-            </option>
+    <hr>
+    <p> © 2026 BiteBox. All Rights Reserved. </p>
 
-            <option>
-                Cheese Burger
-            </option>
+</footer>
 
-            <option>
-                White Sauce Pasta
-            </option>
-
-            <option>
-                Veg Grilled Sandwich
-            </option>
-
-            <option>
-                Chocolate Brownie
-            </option>
-        </select>
-        <br><br>
-
-        <h3> Payment Method </h3>
-
-        <input type="radio" id="cash" name="payment">
-        <label for="cash"> Cash </label>
-        <br>
-<input type="radio" id="card" name="payment">
-        <label for="card"> Card </label>
-        <br>
-        <input type="radio" id="upi" name="payment">
-        <label for="upi">UPI </label>
-        <br><br>
-
-        <h3> Extras </h3>
-        <input type="checkbox" id="cheese" name="extras">
-        <label for="cheese"> Extra Cheese </label>
-        <br>
-
-        <input type="checkbox" id="drink" name="extras">
-        <label for="drink"> Cold Drink </label>
-        <br>
-
-        <input type="checkbox" id="dessert" name="extras">
-        <label for="dessert"> Dessert </label>
-        <br><br>
-
-        <h3>Delivery Instructions </h3>
-        <label for="address"> Delivery Address </label>
-        <br> <textarea id="address" name="address" rows="5" cols="40"> </textarea>
-        <br><br>
-
-        <input type="submit" value="Place Order">
-        <input type="reset" value="Clear Form">
-    </form>
-
-
+<script src="js/script.js"></script>
 </body>
 </html>
